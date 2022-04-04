@@ -1,0 +1,7 @@
+version: 2
+
+  - name: stripe
+    database: raw
+    schema: stripe
+    tables:
+      - name: payment

@@ -6,4 +6,4 @@ select
     status,
     amount
 
-from `dbt-tutorial.stripe.payment`
+from {{ source('stripe', 'payments') }}
