@@ -6,4 +6,4 @@ select
     status,
     amount
 
-from {{ source('stripe', 'payments') }}
+from {{ source('stripe', 'payment') }}
