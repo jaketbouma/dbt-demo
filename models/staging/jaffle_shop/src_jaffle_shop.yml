@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: jaffle-shop
+    database: dbt-tutorial
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: orders
